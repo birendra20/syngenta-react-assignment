@@ -1,0 +1,25 @@
+.App {
+  margin: auto;
+
+  border: 2px solid black;
+  display: flex;
+  width: 70%;
+}
+
+/* .App > div {
+  padding: 20px;
+  border: 2px solid red;
+} */
+
+.empty_div {
+  width: 33%;
+  margin-top: 20%;
+  min-height: 400px;
+  border: 2px solid blue;
+}
+
+.circle {
+  width: 65%;
+  border: 2px solid red;
+  margin-left: 20px;
+}
