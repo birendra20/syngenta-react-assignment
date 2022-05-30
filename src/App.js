@@ -1,23 +1,27 @@
-import logo from "./logo.svg";
 import "./App.css";
-import EmptyDiv from "./components/EmptyDiv";
+
 import Circle from "./components/Circle";
-import Input from "./components/Input";
 
 function App() {
   return (
     <>
       <div className="App">
-        <div className="empty_div">
-          <EmptyDiv />
-        </div>
+        <div className="empty_div"></div>
 
         <div className="circle">
           <Circle />
         </div>
+        <form className="shoot">
+          <input
+            // onChange={(e) => setShootNum(e.target.value)}
+            id="outlined-basic"
+            label="enter a number"
+            variant="outlined"
+            type="number"
+          />
+          <submit type="button">shoot</submit>
+        </form>
       </div>
-
-      <Input />
     </>
   );
 }
